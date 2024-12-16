@@ -10,8 +10,7 @@ Responsive Design: Accordions adapt seamlessly to different screen sizes, provid
 
 # Technologies Involved:
 HTML: For creating the structure of the accordion, including headers and content sections.
-CSS (or Tailwind CSS): For styling and animations, ensuring the accordion looks clean and modern.
-JavaScript (or React): For handling interactivity, such as toggling the visibility of content and dynamically rendering sections.
+CSS and  Javascript.
 
 # Practical Applications:
 FAQs: Organizing frequently asked questions for easy navigation.
