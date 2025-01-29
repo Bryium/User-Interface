@@ -35,8 +35,7 @@
         background-color: #087f5b;
         width: 800px;
         margin: 100px auto;
-        padding: 32px;
-        padding-left: 86px;
+        padding: 32px 48px 32px 86px;
         border-radius: 8px;
         position: relative;
         display: flex;
@@ -90,6 +89,25 @@
         width: 24px;
         stroke: #087f5b;
       }
+      .dots {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 32px);
+        display: flex;
+        gap: 12px;
+      }
+      .dot {
+        height: 12px;
+        width: 12px;
+        background-color: #fff;
+        border: 2px solid #087f5b;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      .dot--fill {
+        background-color: #087f5b;
+      }
     </style>
   </head>
   <body>
@@ -137,6 +155,12 @@
           />
         </svg>
       </button>
+      <div class="dots">
+        <button class="dot dot--fill">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+      </div>
     </div>
   </body>
 </html>
