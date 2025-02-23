@@ -15,6 +15,7 @@
         font-family: sans-serif;
         color: #343a40;
         font-size: 24px;
+        height: 100vh;
         display: grid;
         grid-template-columns: 80px 400px 1fr 250px;
         grid-template-rows: 80px 1fr;
@@ -22,11 +23,13 @@
 
       nav {
         background-color: #343a40;
+        grid-row: 1 / -1;
       }
 
       menu {
         background-color: #7048e8;
         color: #fff;
+        grid-column: 2 / -1;
       }
 
       section {
