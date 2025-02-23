@@ -23,7 +23,6 @@
         grid-template-rows: 80px 1fr;
       }
       nav,
-      menu,
       section,
       main,
       aside {
@@ -39,10 +38,16 @@
         background-color: #7048e8;
         color: #fff;
         grid-column: 2 / -1;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 0 40px;
       }
 
       button {
+        display: inline-block;
         font-size: 16px;
+        font-weight: bold;
         background-color: #5f3dc4;
         border: none;
         cursor: pointer;
